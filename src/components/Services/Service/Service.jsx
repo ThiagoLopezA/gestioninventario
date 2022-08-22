@@ -6,7 +6,7 @@ import styles from "./Service.module.css";
 export default function Service({ title, icon, abled, link }) {
   let state = abled == true ? "container-active" : "container";
   return (
-    <Grid item xs={2}>
+    <article>
       {abled ? (
         <Link to={link} className={styles.link}>
           <article className={styles[state]}>
@@ -20,6 +20,6 @@ export default function Service({ title, icon, abled, link }) {
           <h2 className={styles.title}>{title}</h2>
         </article>
       )}
-    </Grid>
+    </article>
   );
 }
