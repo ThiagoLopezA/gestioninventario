@@ -1,0 +1,13 @@
+.done,.working{
+    border-radius: .25rem;
+}
+.working{
+    border: 1px solid #c0a918;
+    background-color: transparent;
+    color: #c0a918;
+}
+.done{
+    border: 1px solid #429200;
+    background-color: transparent;
+    color: #429200;
+}

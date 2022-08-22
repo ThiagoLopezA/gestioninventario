@@ -1,0 +1,20 @@
+.container{
+    background-color: #00559B;
+    padding: 1rem;
+    border-radius: .25rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 85, 155, 0.05);
+}
+.icon > * {
+    height: 4rem;
+    width: 4rem;
+}
+.number{
+    font-size: 1.6rem;
+}
+.title{
+    font-size: .8rem;
+    font-weight: normal;
+}

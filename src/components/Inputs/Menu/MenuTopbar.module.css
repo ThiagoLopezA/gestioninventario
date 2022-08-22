@@ -1,0 +1,15 @@
+.button{
+    padding: .2rem 1rem;
+    font-size: .8rem;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    justify-content: flex-start;
+    text-transform: none;
+    border: 1px solid #00559B;
+}
+.icon{
+    color: white;
+    background-color: #00559B;
+    border-radius: 50%;
+    padding: .1rem;
+}

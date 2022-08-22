@@ -1,0 +1,23 @@
+.searchbar{
+    width: 100%;
+    background-color: white;
+}
+.container{
+    position:relative;
+    margin-bottom: 1rem;
+}
+.button{
+    position: absolute;
+    right:1rem;
+    top:.75rem;
+    transition: 500ms;
+    height: 2rem;
+    width: 2rem;
+    color: #909090;
+    border-radius: 50%;
+    padding: .2rem;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 5%);
+}

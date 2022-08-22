@@ -1,0 +1,34 @@
+.link{
+    text-decoration: none;
+}
+.button, .button_active{
+    width: 100%;
+    padding: .2rem 1rem;
+    font-size: .8rem;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    justify-content: flex-start;
+    text-transform: none;
+}
+.button{
+    color: #606060;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 5%);
+}
+.button_active{
+    color: white;
+    background-color: #00559B;
+}
+.button_active:hover{
+    background-color: #0c3b61;
+    color: white;
+}
+.aside{
+    display: none;
+}
+@media (min-width: 900px){
+.aside{
+    display: block;
+}
+}

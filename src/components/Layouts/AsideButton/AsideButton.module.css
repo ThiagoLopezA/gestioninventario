@@ -1,0 +1,46 @@
+.link{
+    color: #606060;
+    text-decoration: none;
+}
+.button, .button-active{
+    margin-bottom: 0.25rem;
+}
+.button > *, .button-active > *{
+    margin: 0;
+}
+.button{
+    color: #606060;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 10%);
+}
+.button-active{
+    background-color: #00559B;
+    color: white;
+}
+.button-active:hover{
+    background-color: #0c3b61;
+    color: white;
+}
+.text{
+    display: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: none;
+}
+
+@media (min-width:900px){
+    .text{
+        display: block;
+    }
+    .button-active, .button{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .button > *, .button-active > *{
+        margin-right: .3rem;
+    }
+    .link{
+        width: 100%;
+    }
+}

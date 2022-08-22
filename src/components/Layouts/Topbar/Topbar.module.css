@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    background-color: white;
+    padding: .5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.logo{
+    width: 6rem;
+    height: fit-content;
+}
+
+@media (min-width: 900px){
+    .container{
+        display: flex;
+    }
+}
